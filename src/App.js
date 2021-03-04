@@ -1,9 +1,15 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import Title from './components/Title/Title';
+
 
 function App() {
   return(
-    <h1>Hello World!</h1>
+    <div>
+       
+  <Title></Title>
+    </div>
+   
   )
 }
 
